@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 body {
@@ -617,3 +617,4 @@ footer {
     }
 
 }
+
