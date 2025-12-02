@@ -40,7 +40,7 @@ header {
 .logo {
     font-size: 1.8rem;
     font-weight: 700;
-    color: #fbbf24;
+    color: white;
 }
 
 .logo span {
@@ -617,5 +617,6 @@ footer {
     }
 
 }
+
 
 
