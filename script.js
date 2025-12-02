@@ -1,35 +1,35 @@
 // Project data for lightbox
 const projectsData = {
     1: {
-        title: "Downtown Office Complex",
-        description: "A modern 15-story office building with sustainable features and smart technology integration. This landmark project showcases our commitment to innovative design and environmental responsibility.",
-        image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+        title: "Independent Housing",
+        description: "A modern residental building with sustainable features and smart technology integration. This project showcases our commitment to innovative design and environmental responsibility.",
+        image: "https://lh3.googleusercontent.com/p/AF1QipPy7czzpDEqTdOqffbE3bp72LBuDwvKJWHaoXNX=s1360-w1360-h1020-rw",
         details: [
-            "Location: Downtown Business District",
-            "Completion Date: June 2023",
-            "Total Area: 250,000 sq ft",
-            "Floors: 15",
-            "Budget: $45 Million"
+            "Location: Shamshabad, Hyderabad",
+            "Completion Date: 2022",
+            "Total Area: 333 sqyd",
+            "Floors: 2",
+            "BHK : 3"
         ],
         features: [
-            "LEED Platinum Certified",
+            "Terrace Swimming Pool",
             "Smart building automation system",
             "Solar panel installation",
-            "Green roof with rainwater harvesting",
-            "EV charging stations",
+            "Car Parking Space",
+            "Area surrounding garden",
             "High-speed fiber optic connectivity"
         ]
     },
     2: {
-        title: "Lakeside Residential Community",
-        description: "A luxury residential development featuring 50 custom homes with waterfront views. Each property is designed with unique architectural elements while maintaining community cohesion.",
-        image: "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+        title: "Apartment Constructions",
+        description: "A luxury apartment development, each flat is designed with unique architectural elements while maintaining community cohesion.",
+        image: "https://lh3.googleusercontent.com/p/AF1QipPI4y55BpGKJ9b_0h0BNnGikZUQ6GL_Q3cY-8kx=s1360-w1360-h1020-rw",
         details: [
-            "Location: Serene Lakeside Area",
-            "Completion Date: August 2023",
-            "Total Units: 50 custom homes",
-            "Community Area: 25 acres",
-            "Budget: $60 Million"
+            "Location: Alkapoor, Hyderabad",
+            "Completion Date: 2023",
+            "Total Units: 30+ flats",
+            "Community Area: 3808 sqyd",
+            "BHK: 2"
         ],
         features: [
             "Waterfront properties with private docks",
@@ -41,20 +41,19 @@ const projectsData = {
         ]
     },
     3: {
-        title: "Industrial Warehouse Facility",
-        description: "A 100,000 sq ft warehouse with advanced logistics and distribution capabilities. This state-of-the-art facility incorporates the latest in industrial automation and efficiency.",
-        image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+        title: "Villa Housing",
+        description: "A 1000 sq ft villa with advanced logistics and distribution capabilities. This state-of-the-art facility incorporates the latest in industrial automation and efficiency.",
+        image: "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwOokD3eoKAwZQJ8TUlgFA4-nUm8NuUXt_NxJHD_bnLKnQpYEYJZ55RqyUa1NMOpYKbZwjoOZn4B3NYhkIfHcLhG6QsITdtNeqQC2Y5MhRDB6cLIGMnfPSgsU2FRnAuXbyCkRFD=s1360-w1360-h1020-rw",
         details: [
-            "Location: Industrial Park Zone",
-            "Completion Date: March 2023",
-            "Total Area: 100,000 sq ft",
-            "Clear Height: 32 feet",
-            "Budget: $18 Million"
+            "Location: Manikonda, Hyderabad",
+            "Completion Date: 2024",
+            "Total Area: 1000 sq ft",
+            "Clear Height: 50 feet",
+            "BHK : 4"
         ],
         features: [
             "Automated storage and retrieval system",
             "Climate-controlled sections",
-            "32 loading docks with levelers",
             "Solar-powered facility",
             "Advanced fire suppression system",
             "Custom racking solutions"
@@ -299,4 +298,5 @@ document.addEventListener('DOMContentLoaded', function() {
             serviceObserver.observe(card);
         });
     }
+
 });
